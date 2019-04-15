@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bitset", "bitset\bitset.vcx
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "排序算法", "排序算法\排序算法.vcxproj", "{15A7128C-D007-4B7E-9933-360B806DC48A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "顺序容器vector（二维）", "顺序容器vector（二维）\顺序容器vector（二维）.vcxproj", "{C0182492-A8C7-4270-96EF-2F2CA15C7439}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{15A7128C-D007-4B7E-9933-360B806DC48A}.Release|x64.Build.0 = Release|x64
 		{15A7128C-D007-4B7E-9933-360B806DC48A}.Release|x86.ActiveCfg = Release|Win32
 		{15A7128C-D007-4B7E-9933-360B806DC48A}.Release|x86.Build.0 = Release|Win32
+		{C0182492-A8C7-4270-96EF-2F2CA15C7439}.Debug|x64.ActiveCfg = Debug|x64
+		{C0182492-A8C7-4270-96EF-2F2CA15C7439}.Debug|x64.Build.0 = Debug|x64
+		{C0182492-A8C7-4270-96EF-2F2CA15C7439}.Debug|x86.ActiveCfg = Debug|Win32
+		{C0182492-A8C7-4270-96EF-2F2CA15C7439}.Debug|x86.Build.0 = Debug|Win32
+		{C0182492-A8C7-4270-96EF-2F2CA15C7439}.Release|x64.ActiveCfg = Release|x64
+		{C0182492-A8C7-4270-96EF-2F2CA15C7439}.Release|x64.Build.0 = Release|x64
+		{C0182492-A8C7-4270-96EF-2F2CA15C7439}.Release|x86.ActiveCfg = Release|Win32
+		{C0182492-A8C7-4270-96EF-2F2CA15C7439}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
