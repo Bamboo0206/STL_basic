@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.438
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "变序算法", "STL_basic\STL_basic.vcxproj", "{D1059CBD-253D-4F49-95A4-4A6C01BB27AD}"
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bitset", "bitset\bitset.vcxproj", "{DB2AD5B3-899B-4627-B031-1EC5A6BA4FD9}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "排序算法", "排序算法\排序算法.vcxproj", "{15A7128C-D007-4B7E-9933-360B806DC48A}"
@@ -13,13 +11,15 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "顺序容器vector（二维
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "关联容器_set", "STL_关联容器_set\STL_关联容器_set.vcxproj", "{9958867B-DF27-4F5E-AB49-BE864BCA2C1D}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "STL_关联容器_multimap", "STL_关联容器_multimap\STL_关联容器_multimap.vcxproj", "{769C051F-1498-4CAC-9C83-7B7289C6A12A}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "关联容器_multimap", "STL_关联容器_multimap\STL_关联容器_multimap.vcxproj", "{769C051F-1498-4CAC-9C83-7B7289C6A12A}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "STL_顺序容器_list", "STL_list\STL_list.vcxproj", "{A548B86A-3E17-498D-BB59-5C8C3887CC19}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "顺序容器_list", "STL_list\STL_list.vcxproj", "{A548B86A-3E17-498D-BB59-5C8C3887CC19}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "STL_关联容器_Multiset", "Multiset示例\Multiset示例.vcxproj", "{3B4A6802-25BA-4CAD-926A-5F5D83E19822}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "关联容器_Multiset", "Multiset示例\Multiset示例.vcxproj", "{3B4A6802-25BA-4CAD-926A-5F5D83E19822}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "STL_变值算法", "STL_变值算法\STL_变值算法.vcxproj", "{700A8B01-BCCE-4149-90E4-B99A82317B5D}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "变值算法", "STL_变值算法\STL_变值算法.vcxproj", "{700A8B01-BCCE-4149-90E4-B99A82317B5D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "变序算法", "变序算法\STL_basic.vcxproj", "{D1059CBD-253D-4F49-95A4-4A6C01BB27AD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,14 +29,6 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D1059CBD-253D-4F49-95A4-4A6C01BB27AD}.Debug|x64.ActiveCfg = Debug|x64
-		{D1059CBD-253D-4F49-95A4-4A6C01BB27AD}.Debug|x64.Build.0 = Debug|x64
-		{D1059CBD-253D-4F49-95A4-4A6C01BB27AD}.Debug|x86.ActiveCfg = Debug|Win32
-		{D1059CBD-253D-4F49-95A4-4A6C01BB27AD}.Debug|x86.Build.0 = Debug|Win32
-		{D1059CBD-253D-4F49-95A4-4A6C01BB27AD}.Release|x64.ActiveCfg = Release|x64
-		{D1059CBD-253D-4F49-95A4-4A6C01BB27AD}.Release|x64.Build.0 = Release|x64
-		{D1059CBD-253D-4F49-95A4-4A6C01BB27AD}.Release|x86.ActiveCfg = Release|Win32
-		{D1059CBD-253D-4F49-95A4-4A6C01BB27AD}.Release|x86.Build.0 = Release|Win32
 		{DB2AD5B3-899B-4627-B031-1EC5A6BA4FD9}.Debug|x64.ActiveCfg = Debug|x64
 		{DB2AD5B3-899B-4627-B031-1EC5A6BA4FD9}.Debug|x64.Build.0 = Debug|x64
 		{DB2AD5B3-899B-4627-B031-1EC5A6BA4FD9}.Debug|x86.ActiveCfg = Debug|Win32
@@ -101,6 +93,14 @@ Global
 		{700A8B01-BCCE-4149-90E4-B99A82317B5D}.Release|x64.Build.0 = Release|x64
 		{700A8B01-BCCE-4149-90E4-B99A82317B5D}.Release|x86.ActiveCfg = Release|Win32
 		{700A8B01-BCCE-4149-90E4-B99A82317B5D}.Release|x86.Build.0 = Release|Win32
+		{D1059CBD-253D-4F49-95A4-4A6C01BB27AD}.Debug|x64.ActiveCfg = Debug|x64
+		{D1059CBD-253D-4F49-95A4-4A6C01BB27AD}.Debug|x64.Build.0 = Debug|x64
+		{D1059CBD-253D-4F49-95A4-4A6C01BB27AD}.Debug|x86.ActiveCfg = Debug|Win32
+		{D1059CBD-253D-4F49-95A4-4A6C01BB27AD}.Debug|x86.Build.0 = Debug|Win32
+		{D1059CBD-253D-4F49-95A4-4A6C01BB27AD}.Release|x64.ActiveCfg = Release|x64
+		{D1059CBD-253D-4F49-95A4-4A6C01BB27AD}.Release|x64.Build.0 = Release|x64
+		{D1059CBD-253D-4F49-95A4-4A6C01BB27AD}.Release|x86.ActiveCfg = Release|Win32
+		{D1059CBD-253D-4F49-95A4-4A6C01BB27AD}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
